@@ -605,7 +605,7 @@ public class book_ticket extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -655,8 +655,8 @@ public class book_ticket extends javax.swing.JFrame {
                 +"<h3>Genre</h3>" + genre + "<br>"
                 +"<h3>Duration (in minute)</h3>" + duration + "<br><br>"
                 +"<h3>Seat Info</h3>" 
-                + normalClass + "<normal class>"
-                + specialClass + "<special class <br><br>"
+                + normalClass + "<normal class> <br>"
+                + specialClass + "<special class> <br>"
                 +"<h3>Total</h3> $" + String.format("%.2f", total) 
                 + "</html>";
         JOptionPane.showMessageDialog(this, ticketInfo, "Ticket Information", JOptionPane.INFORMATION_MESSAGE);
